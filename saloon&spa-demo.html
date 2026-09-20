@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Aurelia Luxe | Best Beauty Salon &amp; Spa in Noida – Hair, Facial, Bridal Makeup</title>
+  <meta name="description" content="Aurelia Luxe is the top-rated unisex beauty salon &amp; spa in Noida. Expert haircuts, hair colour, keratin, facials, nail art, massage and bridal makeup near Sector 18. Book your appointment today.">
+  <meta name="keywords" content="salon in Noida, beauty parlour Noida, bridal makeup Noida, hair spa Noida, facial Noida, unisex salon Sector 18 Noida, best salon near me">
+  <meta name="author" content="Ambuj Verma">
+  <meta name="theme-color" content="#f8e1e7">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aurelia Luxe | Luxury Salon &amp; Spa in Noida">
+  <meta property="og:description" content="Where Beauty Meets Luxury. Book your appointment at Aurelia Luxe, Noida.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Aurelia Luxe Salon & Spa",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=80",
+    "telephone": "+91-98765-43210",
+    "address": { "@type": "PostalAddress", "streetAddress": "Sector 18", "addressLocality": "Noida", "addressRegion": "Uttar Pradesh", "postalCode": "201301", "addressCountry": "IN" },
+    "openingHours": "Mo-Su 10:00-21:00",
+    "priceRange": "₹₹"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { blush: '#f8e1e7', blushdeep: '#f1c4d0', gold: '#d4af37', golddark: '#b8932a', ink: '#3b2b31' },
+          fontFamily: { serif: ['"Cormorant Garamond"', 'serif'], sans: ['"Plus Jakarta Sans"', 'sans-serif'] },
+          borderRadius: { '2xl': '16px' }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; scroll-padding-top: 72px; -webkit-text-size-adjust: 100%; }
+    html, body { max-width: 100%; overflow-x: hidden; }
+    @supports (overflow: clip) { html, body { overflow-x: clip; } }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; color: #3b2b31; background: #fffafb; -webkit-tap-highlight-color: transparent; }
+    h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; letter-spacing: -.01em; }
+    @media (max-width: 1023px) { .footer-pad { padding-bottom: calc(100px + env(safe-area-inset-bottom)) !important; } }
+    :focus-visible { outline: 2px solid #d4af37; outline-offset: 3px; }
+    .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+
+    .gold-grad { background: linear-gradient(135deg, #e7c766, #d4af37 55%, #b8932a); }
+    .btn { white-space: nowrap; display: inline-flex; align-items: center; gap: .6rem; padding: .85rem 1.6rem; border-radius: 999px; font-weight: 600; font-size: .92rem; transition: transform .3s ease, box-shadow .3s ease, background .3s ease; }
+    .btn:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -8px rgba(212,175,55,.55); }
+    .btn:active { transform: scale(.97); }
+    .btn-gold { background: linear-gradient(135deg, #e7c766, #d4af37 55%, #b8932a); color: #fff; }
+    .btn-outline { border: 2px solid #fff; color: #fff; }
+    .btn-outline:hover { background: #fff; color: #3b2b31; }
+    .btn-dark { background: #3b2b31; color: #fff; }
+
+    .card { background: #fff; border-radius: 16px; box-shadow: 0 10px 30px -12px rgba(59,43,49,.18); transition: transform .35s ease, box-shadow .35s ease; }
+    @media (hover: hover) { .card:hover { transform: translateY(-8px); box-shadow: 0 22px 40px -14px rgba(212,175,55,.35); } }
+    .tap:active { transform: scale(.97); }
+    .icon-circle { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-size: 1.3rem; background: linear-gradient(135deg, #e7c766, #d4af37 55%, #b8932a); box-shadow: 0 8px 18px -6px rgba(212,175,55,.6); transition: transform .4s ease; flex-shrink: 0; }
+    @media (min-width: 768px) { .icon-circle { width: 64px; height: 64px; font-size: 1.5rem; } }
+    @media (hover: hover) { .card:hover .icon-circle { transform: rotate(-8deg) scale(1.08); } }
+
+    .section-title { font-size: clamp(1.8rem, 4.2vw, 3rem); font-weight: 700; line-height: 1.12; }
+    .divider { width: 70px; height: 3px; background: #d4af37; border-radius: 4px; margin: 1rem auto 0; }
+
+    /* Desktop nav */
+    .nav-link { position: relative; padding: .4rem 0; transition: color .3s; }
+    .nav-link::after { content: ''; position: absolute; left: 0; bottom: -2px; width: 0; height: 2px; background: #d4af37; transition: width .3s; }
+    .nav-link:hover, .nav-link.active { color: #b8932a; }
+    .nav-link:hover::after, .nav-link.active::after { width: 100%; }
+    #header { padding-top: env(safe-area-inset-top); }
+    #header.scrolled { background: rgba(255,250,251,.94); backdrop-filter: blur(10px); box-shadow: 0 6px 24px -10px rgba(59,43,49,.25); }
+    #header.scrolled .logo-text, #header.scrolled .nav-link, #header.scrolled #menuBtn { color: #3b2b31; }
+
+    /* Side drawer */
+    #overlay { position: fixed; inset: 0; background: rgba(59,43,49,.55); backdrop-filter: blur(3px); opacity: 0; pointer-events: none; transition: opacity .35s; z-index: 70; }
+    #overlay.open { opacity: 1; pointer-events: auto; }
+    #drawer { position: fixed; top: 0; right: 0; height: 100%; width: 84%; max-width: 360px; background: #fffafb; z-index: 80; transform: translateX(100%); visibility: hidden; transition: transform .38s cubic-bezier(.22,.8,.3,1), visibility 0s .38s; display: flex; flex-direction: column; border-radius: 28px 0 0 28px; box-shadow: -20px 0 50px -20px rgba(59,43,49,.5); padding-top: env(safe-area-inset-top); }
+    #drawer.open { transform: none; visibility: visible; transition: transform .38s cubic-bezier(.22,.8,.3,1); }
+    .drawer-link { display: flex; align-items: center; gap: 12px; padding: 8px 12px; border-radius: 14px; font-weight: 600; font-size: .95rem; transition: background .25s; }
+    .drawer-link i { width: 34px; height: 34px; border-radius: 12px; display: grid; place-items: center; background: #f8e1e7; color: #b8932a; font-size: .95rem; }
+    .drawer-link:active, .drawer-link:hover { background: #f8e1e7; }
+
+    /* Hero slider */
+    .hero-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 1.2s ease; }
+    .hero-slide.active { opacity: 1; }
+    .hero-slide img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.07); transition: transform 7s ease-out; }
+    .hero-slide.active img { transform: scale(1); }
+    .hdot { width: 8px; height: 8px; border-radius: 99px; background: rgba(255,255,255,.5); transition: all .3s; }
+    .hdot.on { width: 26px; background: #d4af37; }
+
+    /* Quick actions */
+    .qa { width: 48px; height: 48px; border-radius: 16px; display: grid; place-items: center; background: #f8e1e7; color: #b8932a; font-size: 1.15rem; }
+
+    /* Chips */
+    .chip { padding: .55rem 1.1rem; border-radius: 999px; background: #fff; border: 1.5px solid #f1c4d0; font-size: .82rem; font-weight: 600; white-space: nowrap; transition: all .25s; }
+    .chip.on { background: linear-gradient(135deg, #e7c766, #d4af37 55%, #b8932a); border-color: transparent; color: #fff; }
+
+    /* Gallery */
+    .masonry { column-count: 3; column-gap: 1rem; }
+    .masonry .m-item { break-inside: avoid; margin-bottom: 1rem; position: relative; overflow: hidden; border-radius: 16px; cursor: zoom-in; }
+    .masonry img { width: 100%; display: block; transition: transform .6s ease; }
+    .masonry .m-item:hover img { transform: scale(1.08); }
+    .masonry .m-item::after { content: '\f00e'; font-family: 'Font Awesome 6 Free'; font-weight: 900; position: absolute; inset: 0; display: grid; place-items: center; color: #fff; font-size: 1.6rem; background: rgba(59,43,49,.45); opacity: 0; transition: opacity .3s; }
+    .masonry .m-item:hover::after { opacity: 1; }
+    @media (max-width: 767px) {
+      .masonry { display: flex; column-count: unset; overflow-x: auto; scroll-snap-type: x mandatory; gap: 12px; margin: 0 -20px; padding: 0 20px 8px; scrollbar-width: none; }
+      .masonry::-webkit-scrollbar { display: none; }
+      .masonry .m-item { flex: 0 0 78%; height: 330px; margin: 0; scroll-snap-align: center; }
+      .masonry .m-item img { height: 100%; object-fit: cover; }
+      .masonry .m-item::after { display: none; }
+    }
+
+    /* FAQ */
+    .faq-body { max-height: 0; overflow: hidden; transition: max-height .4s ease; }
+    .faq-item.open .faq-body { max-height: 260px; }
+    .faq-item.open .faq-chevron { transform: rotate(180deg); }
+    .faq-chevron { transition: transform .3s; }
+
+    #track { transition: transform .6s cubic-bezier(.22,.8,.3,1); }
+    .pulse-ring { animation: pulse 2.2s infinite; }
+    @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(37,211,102,.55); } 70% { box-shadow: 0 0 0 16px rgba(37,211,102,0); } 100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); } }
+    .wa-float { right: 18px; bottom: calc(92px + env(safe-area-inset-bottom)); }
+    @media (min-width: 1024px) { .wa-float { bottom: 24px; right: 24px; } }
+    @media (max-width: 1023px) { .wa-float.wa-hide { opacity: 0; pointer-events: none; transform: scale(.7); } }
+
+    .input { width: 100%; padding: .85rem 1.1rem; border-radius: 14px; border: 1.5px solid #f1c4d0; background: #fff; font-size: 16px; transition: border .3s, box-shadow .3s; }
+    .input:focus { outline: none; border-color: #d4af37; box-shadow: 0 0 0 4px rgba(212,175,55,.18); }
+
+    /* Bottom tab bar (mobile app style) */
+    #tabbar { padding-bottom: env(safe-area-inset-bottom); }
+    .tab { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 8px 0 4px; font-size: 11px; font-weight: 600; color: rgba(59,43,49,.55); transition: color .2s; }
+    .tab i { font-size: 1.15rem; }
+    .tab.active { color: #b8932a; }
+    .tab:active { transform: scale(.94); }
+    .book-fab { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-size: 1.3rem; margin-top: -32px; border: 4px solid #fffafb; box-shadow: 0 10px 22px -6px rgba(212,175,55,.75); background: linear-gradient(135deg, #e7c766, #d4af37 55%, #b8932a); }
+
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } html { scroll-behavior: auto; } }
+  </style>
+</head>
+
+<body class="antialiased">
+
+  <!-- HEADER -->
+  <header id="header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-5 py-3.5 lg:py-4 flex items-center justify-between">
+      <a href="#home" class="logo-text flex items-center gap-2 text-white text-2xl lg:text-3xl font-serif font-bold" aria-label="Aurelia Luxe home">
+        <i class="fa-solid fa-spa text-gold"></i> Aurelia Luxe
+      </a>
+      <nav class="hidden lg:flex items-center gap-8 text-white text-sm font-medium" aria-label="Main navigation">
+        <a href="#home" class="nav-link"><i class="fa-solid fa-house mr-1.5"></i>Home</a>
+        <a href="#services" class="nav-link"><i class="fa-solid fa-scissors mr-1.5"></i>Services</a>
+        <a href="#gallery" class="nav-link"><i class="fa-solid fa-images mr-1.5"></i>Gallery</a>
+        <a href="#reviews" class="nav-link"><i class="fa-solid fa-quote-left mr-1.5"></i>Reviews</a>
+        <a href="#pricing" class="nav-link"><i class="fa-solid fa-indian-rupee-sign mr-1.5"></i>Pricing</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-phone mr-1.5"></i>Contact</a>
+        <a href="#contact" class="btn btn-gold !py-2.5 !px-5"><i class="fa-solid fa-calendar-check"></i> Book Appointment</a>
+      </nav>
+      <button id="menuBtn" class="lg:hidden text-white text-2xl w-11 h-11 grid place-items-center rounded-full" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- SIDE DRAWER (mobile) -->
+  <div id="overlay" aria-hidden="true"></div>
+  <aside id="drawer" aria-hidden="true" aria-label="Menu">
+    <div class="flex items-center justify-between px-5 pt-5 pb-3">
+      <span class="flex items-center gap-2 text-2xl font-serif font-bold"><i class="fa-solid fa-spa text-gold"></i> Aurelia Luxe</span>
+      <button id="drawerClose" class="w-10 h-10 grid place-items-center rounded-full bg-blush text-ink" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <p class="px-5 text-xs text-ink/60 -mt-1 mb-2"><i class="fa-solid fa-location-dot text-gold mr-1"></i> Salon &amp; Spa · Sector 18, Noida</p>
+    <nav class="flex-1 overflow-y-auto px-3 py-2" aria-label="Mobile navigation">
+      <a href="#home" class="drawer-link"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="#services" class="drawer-link"><i class="fa-solid fa-scissors"></i> Services</a>
+      <a href="#offers" class="drawer-link"><i class="fa-solid fa-tags"></i> Offers</a>
+      <a href="#stylists" class="drawer-link"><i class="fa-solid fa-user-group"></i> Our Stylists</a>
+      <a href="#gallery" class="drawer-link"><i class="fa-solid fa-images"></i> Gallery</a>
+      <a href="#reviews" class="drawer-link"><i class="fa-solid fa-quote-left"></i> Reviews</a>
+      <a href="#pricing" class="drawer-link"><i class="fa-solid fa-indian-rupee-sign"></i> Pricing</a>
+      <a href="#faq" class="drawer-link"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+      <a href="#contact" class="drawer-link"><i class="fa-solid fa-phone"></i> Contact</a>
+    </nav>
+    <div class="px-5 pt-3 pb-4 border-t border-blushdeep space-y-2.5" style="padding-bottom: calc(1rem + env(safe-area-inset-bottom))">
+      <a href="#contact" class="btn btn-gold w-full justify-center"><i class="fa-solid fa-calendar-check"></i> Book Appointment</a>
+      <a href="tel:+919876543210" class="btn btn-dark w-full justify-center"><i class="fa-solid fa-phone"></i> Call Now</a>
+      <div class="flex items-center justify-between pt-1">
+        <p class="text-xs text-ink/60"><i class="fa-solid fa-clock text-gold mr-1"></i> 10 AM – 9 PM, Daily</p>
+        <div class="flex gap-2 text-sm">
+          <a href="#" aria-label="Instagram" class="w-9 h-9 grid place-items-center rounded-full bg-blush text-golddark"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook" class="w-9 h-9 grid place-items-center rounded-full bg-blush text-golddark"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://wa.me/919876543210" aria-label="WhatsApp" class="w-9 h-9 grid place-items-center rounded-full bg-blush text-golddark"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- HERO SLIDER -->
+    <section id="home" class="relative min-h-[78vh] min-h-[78svh] lg:min-h-screen flex items-end md:items-center justify-center text-white overflow-hidden bg-ink rounded-b-[32px] lg:rounded-none">
+      <div id="heroSlides" class="absolute inset-0">
+        <div class="hero-slide active"><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=80" alt="Luxury salon interior at Aurelia Luxe, Noida"></div>
+        <div class="hero-slide"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1600&q=80" alt="Expert hair stylist at work in Noida salon" loading="lazy"></div>
+        <div class="hero-slide"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1600&q=80" alt="Professional makeup artist in Noida" loading="lazy"></div>
+        <div class="hero-slide"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80" alt="Relaxing spa treatment at Aurelia Luxe" loading="lazy"></div>
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/45 to-ink/85"></div>
+
+      <div class="relative z-10 max-w-4xl w-full px-5 pt-28 pb-24 md:pb-28 text-left md:text-center">
+        <p class="inline-flex items-center gap-2 bg-white/15 backdrop-blur px-4 py-2 rounded-full text-xs md:text-sm mb-5" data-aos="fade-down">
+          <i class="fa-solid fa-star text-gold"></i> Top-rated Unisex Salon &amp; Spa in Noida
+        </p>
+        <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.02]" data-aos="fade-up">Where Beauty Meets Luxury</h1>
+        <p class="mt-5 text-sm md:text-lg text-white/90 max-w-2xl md:mx-auto font-light leading-relaxed" data-aos="fade-up" data-aos-delay="150">
+          Step into Aurelia Luxe — Noida's destination for signature haircuts, radiant facials and unforgettable bridal transformations, crafted by artists who care.
+        </p>
+        <div class="mt-7 grid grid-cols-2 md:flex gap-3 md:gap-4 md:justify-center" data-aos="fade-up" data-aos-delay="300">
+          <a href="#contact" class="btn btn-gold justify-center"><i class="fa-solid fa-calendar-check"></i> Book Now <i class="fa-solid fa-arrow-right hidden sm:inline"></i></a>
+          <a href="tel:+919876543210" class="btn btn-outline justify-center"><i class="fa-solid fa-phone"></i> Call</a>
+        </div>
+      </div>
+      <div id="heroDots" class="absolute z-10 left-5 md:left-1/2 md:-translate-x-1/2 bottom-16 md:bottom-8 flex gap-2" aria-hidden="true"></div>
+      <a href="#about" class="hidden lg:block absolute bottom-7 left-10 text-white/80 text-xl animate-bounce" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+    </section>
+
+    <!-- QUICK ACTIONS (mobile) -->
+    <div class="lg:hidden relative z-20 -mt-10 px-5">
+      <div class="bg-white rounded-3xl shadow-xl p-4 grid grid-cols-4 gap-2 text-center text-[11px] font-semibold">
+        <a href="#contact" class="tap flex flex-col items-center gap-1.5"><span class="qa"><i class="fa-solid fa-calendar-check"></i></span>Book</a>
+        <a href="tel:+919876543210" class="tap flex flex-col items-center gap-1.5"><span class="qa"><i class="fa-solid fa-phone"></i></span>Call</a>
+        <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="tap flex flex-col items-center gap-1.5"><span class="qa" style="background:#dcfce7;color:#16a34a"><i class="fa-brands fa-whatsapp"></i></span>Chat</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=DLF+Mall+of+India,+Sector+18,+Noida,+Uttar+Pradesh+201301" target="_blank" rel="noopener" class="tap flex flex-col items-center gap-1.5"><span class="qa"><i class="fa-solid fa-location-arrow"></i></span>Directions</a>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-14 md:py-28 px-5">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 md:gap-12 items-center">
+        <div class="relative" data-aos="fade-up">
+          <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=80" alt="Stylist creating a haircut at Aurelia Luxe salon in Noida" class="rounded-2xl shadow-2xl w-full h-[300px] md:h-[520px] object-cover bg-blushdeep" loading="lazy">
+          <div class="absolute -bottom-5 right-3 md:-right-6 gold-grad text-white rounded-2xl px-5 py-4 md:px-6 md:py-5 shadow-xl text-center">
+            <p class="font-serif text-3xl md:text-4xl font-bold">12+</p>
+            <p class="text-xs md:text-sm">Years of Beauty</p>
+          </div>
+        </div>
+        <div data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-spa text-gold mr-2"></i>About Aurelia Luxe</h2>
+          <div class="w-[70px] h-[3px] bg-gold rounded my-4"></div>
+          <p class="text-ink/80 leading-relaxed text-sm md:text-base">Since opening our doors in Noida, Aurelia Luxe has been the place where locals from Sector 18, Sector 62 and Greater Noida go to feel confident, pampered and completely themselves. Our calm, elegant space and certified stylists turn every visit into a small celebration.</p>
+          <p class="text-ink/80 leading-relaxed mt-4 text-sm md:text-base">From a quick trim to a full bridal makeover, we listen first, then create looks that suit your face, your lifestyle and your budget.</p>
+          <ul class="mt-7 space-y-4">
+            <li class="flex gap-4 items-start">
+              <span class="icon-circle !w-12 !h-12 !text-lg"><i class="fa-solid fa-user-check"></i></span>
+              <div><h3 class="text-xl font-bold">Expert Stylists</h3><p class="text-sm text-ink/70">Trained, certified artists who stay ahead of every trend.</p></div>
+            </li>
+            <li class="flex gap-4 items-start">
+              <span class="icon-circle !w-12 !h-12 !text-lg"><i class="fa-solid fa-gem"></i></span>
+              <div><h3 class="text-xl font-bold">Premium Products</h3><p class="text-sm text-ink/70">Only globally trusted, skin-safe brands touch your hair and skin.</p></div>
+            </li>
+            <li class="flex gap-4 items-start">
+              <span class="icon-circle !w-12 !h-12 !text-lg"><i class="fa-solid fa-shield-heart"></i></span>
+              <div><h3 class="text-xl font-bold">Hygiene First</h3><p class="text-sm text-ink/70">Sterilised tools, fresh linen and a spotless space for every guest.</p></div>
+            </li>
+          </ul>
+          <div class="grid grid-cols-3 gap-3 mt-8 text-center">
+            <div class="bg-blush rounded-2xl py-4"><p class="font-bold text-lg"><i class="fa-solid fa-star text-gold mr-1 text-sm"></i>4.9</p><p class="text-[11px] text-ink/60">Google Rating</p></div>
+            <div class="bg-blush rounded-2xl py-4"><p class="font-bold text-lg"><i class="fa-solid fa-users text-gold mr-1 text-sm"></i>8K+</p><p class="text-[11px] text-ink/60">Happy Clients</p></div>
+            <div class="bg-blush rounded-2xl py-4"><p class="font-bold text-lg"><i class="fa-solid fa-award text-gold mr-1 text-sm"></i>15+</p><p class="text-[11px] text-ink/60">Expert Artists</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-14 md:py-28 px-5 bg-blush/60">
+      <div class="max-w-7xl mx-auto">
+        <div class="mb-6 md:mb-10 md:text-center" data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-hand-sparkles text-gold mr-2"></i>Our Signature Services</h2>
+          <div class="divider hidden md:block"></div>
+          <p class="mt-3 md:mt-5 text-sm md:text-base text-ink/70 max-w-2xl md:mx-auto">Everything you need to look and feel your best — under one roof in Noida. Tap a service to book it.</p>
+        </div>
+
+        <div id="chips" class="flex gap-2 overflow-x-auto no-scrollbar -mx-5 px-5 md:mx-0 md:px-0 md:justify-center mb-7 md:mb-10" role="tablist" aria-label="Filter services">
+          <button class="chip on" data-filter="all">All</button>
+          <button class="chip" data-filter="hair"><i class="fa-solid fa-scissors mr-1.5"></i>Hair</button>
+          <button class="chip" data-filter="skin"><i class="fa-solid fa-face-smile mr-1.5"></i>Skin</button>
+          <button class="chip" data-filter="nails"><i class="fa-solid fa-hand-sparkles mr-1.5"></i>Nails</button>
+          <button class="chip" data-filter="spa"><i class="fa-solid fa-spa mr-1.5"></i>Spa</button>
+          <button class="chip" data-filter="bridal"><i class="fa-solid fa-wand-magic-sparkles mr-1.5"></i>Bridal</button>
+          <button class="chip" data-filter="men"><i class="fa-solid fa-user-tie mr-1.5"></i>Men</button>
+        </div>
+
+        <div id="svcGrid" class="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-7">
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="hair" data-service="Haircut &amp; Styling">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-scissors"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Haircut &amp; Styling</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Precision cuts and blow-dries designed around your face shape and lifestyle.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹499</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="hair" data-service="Hair Colour &amp; Balayage">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-paintbrush"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Hair Colour &amp; Balayage</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Global colour, highlights and balayage with ammonia-free shades that stay glossy.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹1,999</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="hair" data-service="Keratin &amp; Smoothening">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-wind"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Keratin &amp; Smoothening</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Frizz-free, silky hair for months — perfect for Noida's humid summers.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹3,499</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="hair spa" data-service="Hair Spa">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-droplet"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Hair Spa</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Deep-nourishing ritual with steam and scalp massage to repair dull, damaged hair.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹899</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="skin" data-service="Facial &amp; Glow">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-face-smile"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Facial &amp; Glow</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Deep-cleansing, brightening and anti-ageing facials for a lit-from-within glow.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹799</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="skin" data-service="De-Tan &amp; Cleanup">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-sun"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">De-Tan &amp; Cleanup</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Remove tan and dullness fast with a gentle, brightening cleanup.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹599</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="skin" data-service="Waxing &amp; Threading">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-feather"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Waxing &amp; Threading</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Smooth, comfortable hair removal with premium rica and chocolate wax.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹299</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="nails" data-service="Manicure &amp; Pedicure">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-hand-sparkles"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Manicure &amp; Pedicure</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Relaxing hand and foot rituals with gel polish and warm spa soaks.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹699</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="nails" data-service="Nail Art &amp; Extensions">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-palette"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Nail Art &amp; Extensions</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Custom designs, gel extensions and chrome finishes that turn heads.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹999</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="spa" data-service="Body Massage &amp; Spa">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-spa"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Body Massage &amp; Spa</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Aromatherapy and deep-tissue massages that melt away work stress.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹1,499</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="bridal" data-service="Bridal Makeup">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Bridal Makeup</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">HD and airbrush bridal looks that photograph beautifully and last all day.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹4,999</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="svc card tap p-4 md:p-8 md:text-center cursor-pointer" data-cat="men" data-service="Men's Grooming &amp; Beard">
+            <div class="icon-circle md:mx-auto mb-3 md:mb-5"><i class="fa-solid fa-user-tie"></i></div>
+            <h3 class="text-xl md:text-2xl font-bold leading-tight mb-1">Men's Grooming &amp; Beard</h3>
+            <p class="hidden sm:block text-sm text-ink/70 leading-relaxed">Sharp haircuts, beard styling, clean-shave and de-stress head massage.</p>
+            <p class="mt-2 text-xs md:text-sm font-bold text-golddark">From ₹399</p>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 mt-4 text-golddark font-semibold text-sm">Book this <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFERS SLIDER -->
+    <section id="offers" class="py-14 md:py-24 px-5">
+      <div class="max-w-7xl mx-auto">
+        <div class="mb-6 md:mb-12 md:text-center" data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-tags text-gold mr-2"></i>Offers For You</h2>
+          <div class="divider hidden md:block"></div>
+          <p class="mt-3 md:mt-5 text-sm md:text-base text-ink/70 md:mx-auto max-w-xl">Swipe through this month's best deals. Tap to claim on WhatsApp.</p>
+        </div>
+        <div class="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 overflow-x-auto md:overflow-visible snap-x snap-mandatory scroll-px-5 no-scrollbar -mx-5 px-5 md:mx-0 md:px-0 pb-2">
+          <article class="snap-start shrink-0 w-[80%] sm:w-[60%] md:w-auto rounded-2xl p-6 text-white gold-grad flex flex-col justify-between min-h-[190px]">
+            <div><i class="fa-solid fa-gift text-2xl"></i><p class="mt-3 text-sm font-semibold opacity-90">First Visit Offer</p><p class="font-serif text-4xl font-bold leading-none mt-1">Flat 20% OFF</p><p class="text-sm mt-2 opacity-90">On any service for new guests.</p></div>
+            <a href="https://wa.me/919876543210?text=Hi%20Aurelia%20Luxe%2C%20I%20want%20the%20First%20Visit%20Offer" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 text-sm font-bold">Claim offer <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="snap-start shrink-0 w-[80%] sm:w-[60%] md:w-auto rounded-2xl p-6 text-white bg-ink flex flex-col justify-between min-h-[190px]">
+            <div><i class="fa-solid fa-face-smile text-2xl text-gold"></i><p class="mt-3 text-sm font-semibold opacity-90">Glow Combo</p><p class="font-serif text-4xl font-bold leading-none mt-1">₹1,199</p><p class="text-sm mt-2 opacity-90">Facial + De-Tan + Head Massage.</p></div>
+            <a href="https://wa.me/919876543210?text=Hi%20Aurelia%20Luxe%2C%20I%20want%20the%20Glow%20Combo" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 text-sm font-bold text-gold">Claim offer <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="snap-start shrink-0 w-[80%] sm:w-[60%] md:w-auto rounded-2xl p-6 bg-blushdeep flex flex-col justify-between min-h-[190px]">
+            <div><i class="fa-solid fa-droplet text-2xl text-golddark"></i><p class="mt-3 text-sm font-semibold">Weekday Hair Spa</p><p class="font-serif text-4xl font-bold leading-none mt-1">₹699</p><p class="text-sm mt-2 text-ink/70">Mon–Thu, 10 AM – 4 PM only.</p></div>
+            <a href="https://wa.me/919876543210?text=Hi%20Aurelia%20Luxe%2C%20I%20want%20the%20Weekday%20Hair%20Spa" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 text-sm font-bold text-golddark">Claim offer <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="snap-start shrink-0 w-[80%] sm:w-[60%] md:w-auto rounded-2xl p-6 text-white flex flex-col justify-between min-h-[190px]" style="background:linear-gradient(135deg,#8c5a6b,#3b2b31)">
+            <div><i class="fa-solid fa-ring text-2xl text-gold"></i><p class="mt-3 text-sm font-semibold opacity-90">Bridal Early Bird</p><p class="font-serif text-4xl font-bold leading-none mt-1">15% OFF</p><p class="text-sm mt-2 opacity-90">Book 30 days before your wedding.</p></div>
+            <a href="https://wa.me/919876543210?text=Hi%20Aurelia%20Luxe%2C%20I%20want%20the%20Bridal%20Early%20Bird%20offer" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 text-sm font-bold text-gold">Claim offer <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section id="why" class="py-14 md:py-28 px-5 bg-blush/60">
+      <div class="max-w-7xl mx-auto">
+        <div class="mb-8 md:mb-14 md:text-center" data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-star text-gold mr-2"></i>Why Choose Aurelia Luxe</h2>
+          <div class="divider hidden md:block"></div>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-7">
+          <div class="card tap p-5 md:p-7 text-center" data-aos="zoom-in">
+            <div class="icon-circle mx-auto mb-3"><i class="fa-solid fa-award"></i></div>
+            <h3 class="text-lg md:text-xl font-bold leading-tight mb-1">Certified Experts</h3>
+            <p class="text-xs md:text-sm text-ink/70">Professionally trained team with years of hands-on experience.</p>
+          </div>
+          <div class="card tap p-5 md:p-7 text-center" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-circle mx-auto mb-3"><i class="fa-solid fa-leaf"></i></div>
+            <h3 class="text-lg md:text-xl font-bold leading-tight mb-1">Gentle Products</h3>
+            <p class="text-xs md:text-sm text-ink/70">Premium, skin-friendly brands chosen for safety and results.</p>
+          </div>
+          <div class="card tap p-5 md:p-7 text-center" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-circle mx-auto mb-3"><i class="fa-solid fa-tags"></i></div>
+            <h3 class="text-lg md:text-xl font-bold leading-tight mb-1">Fair Pricing</h3>
+            <p class="text-xs md:text-sm text-ink/70">Luxury experience with clear, honest prices — no hidden charges.</p>
+          </div>
+          <div class="card tap p-5 md:p-7 text-center" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-circle mx-auto mb-3"><i class="fa-solid fa-heart"></i></div>
+            <h3 class="text-lg md:text-xl font-bold leading-tight mb-1">Personal Care</h3>
+            <p class="text-xs md:text-sm text-ink/70">One-to-one consultation so every look is made just for you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STYLISTS SLIDER -->
+    <section id="stylists" class="py-14 md:py-28 px-5">
+      <div class="max-w-7xl mx-auto">
+        <div class="mb-6 md:mb-12 md:text-center" data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-user-group text-gold mr-2"></i>Meet Our Stylists</h2>
+          <div class="divider hidden md:block"></div>
+          <p class="mt-3 md:mt-5 text-sm md:text-base text-ink/70 md:mx-auto max-w-xl">The artists behind every glow-up at our Noida studio.</p>
+        </div>
+        <div class="flex lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 gap-4 md:gap-7 overflow-x-auto md:overflow-visible snap-x snap-mandatory scroll-px-5 no-scrollbar -mx-5 px-5 md:mx-0 md:px-0 pb-2">
+          <article class="snap-start shrink-0 w-[66%] sm:w-[45%] md:w-auto card overflow-hidden">
+            <div class="aspect-[4/5] bg-blushdeep"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Riya Kapoor, Creative Director and hair stylist at Aurelia Luxe Noida" class="w-full h-full object-cover" loading="lazy"></div>
+            <div class="p-4"><h3 class="text-xl font-bold">Riya Kapoor</h3><p class="text-xs text-ink/60">Creative Director · Hair Stylist</p><p class="text-xs mt-2 text-golddark font-semibold"><i class="fa-solid fa-award mr-1"></i>12 yrs experience</p></div>
+          </article>
+          <article class="snap-start shrink-0 w-[66%] sm:w-[45%] md:w-auto card overflow-hidden">
+            <div class="aspect-[4/5] bg-blushdeep"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80" alt="Aman Sharma, men's grooming expert in Noida" class="w-full h-full object-cover" loading="lazy"></div>
+            <div class="p-4"><h3 class="text-xl font-bold">Aman Sharma</h3><p class="text-xs text-ink/60">Men's Grooming Expert</p><p class="text-xs mt-2 text-golddark font-semibold"><i class="fa-solid fa-award mr-1"></i>8 yrs experience</p></div>
+          </article>
+          <article class="snap-start shrink-0 w-[66%] sm:w-[45%] md:w-auto card overflow-hidden">
+            <div class="aspect-[4/5] bg-blushdeep"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80" alt="Simran Arora, bridal makeup artist in Noida" class="w-full h-full object-cover" loading="lazy"></div>
+            <div class="p-4"><h3 class="text-xl font-bold">Simran Arora</h3><p class="text-xs text-ink/60">Bridal Makeup Artist</p><p class="text-xs mt-2 text-golddark font-semibold"><i class="fa-solid fa-award mr-1"></i>10 yrs experience</p></div>
+          </article>
+          <article class="snap-start shrink-0 w-[66%] sm:w-[45%] md:w-auto card overflow-hidden">
+            <div class="aspect-[4/5] bg-blushdeep"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Kavya Mehta, skin and spa therapist at Aurelia Luxe" class="w-full h-full object-cover" loading="lazy"></div>
+            <div class="p-4"><h3 class="text-xl font-bold">Kavya Mehta</h3><p class="text-xs text-ink/60">Skin &amp; Spa Therapist</p><p class="text-xs mt-2 text-golddark font-semibold"><i class="fa-solid fa-award mr-1"></i>7 yrs experience</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="py-14 md:py-28 px-5 bg-blush/60">
+      <div class="max-w-7xl mx-auto">
+        <div class="mb-6 md:mb-14 md:text-center" data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-images text-gold mr-2"></i>Our Gallery</h2>
+          <div class="divider hidden md:block"></div>
+          <p class="mt-3 md:mt-5 text-sm md:text-base text-ink/70">A glimpse of the transformations and calm moments at our Noida studio.</p>
+          <p class="md:hidden mt-2 text-xs text-golddark font-semibold"><i class="fa-solid fa-hand-pointer mr-1"></i> Swipe to explore · tap to zoom</p>
+        </div>
+        <div class="masonry">
+          <div class="m-item"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=700&q=80" alt="Fresh hair colour and styling at Aurelia Luxe, Noida" loading="lazy"></div>
+          <div class="m-item"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=700&q=80" alt="Professional makeup artist at work" loading="lazy"></div>
+          <div class="m-item"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80" alt="Relaxing spa treatment with candles and stones" loading="lazy"></div>
+          <div class="m-item"><img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=700&q=80" alt="Elegant manicure with nail art" loading="lazy"></div>
+          <div class="m-item"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=700&q=80" alt="Stylist finishing a client's hairstyle in the salon" loading="lazy"></div>
+          <div class="m-item"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=80" alt="Glamorous bridal makeup look" loading="lazy"></div>
+          <div class="m-item"><img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&w=700&q=80" alt="Long waves hairstyle done at the salon" loading="lazy"></div>
+          <div class="m-item"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=700&q=80" alt="Modern salon chairs and mirrors" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="reviews" class="py-14 md:py-28 px-5">
+      <div class="max-w-4xl mx-auto">
+        <div class="mb-8 md:mb-12 md:text-center" data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-quote-left text-gold mr-2"></i>Loved by Noida</h2>
+          <div class="divider hidden md:block"></div>
+        </div>
+        <div class="relative" data-aos="fade-up">
+          <div id="revViewport" class="overflow-hidden rounded-2xl">
+            <div id="track" class="flex">
+              <figure class="min-w-full p-2">
+                <div class="card text-center p-6 md:p-12 hover:!transform-none">
+                  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80" alt="Priya S., happy client" class="w-20 h-20 rounded-full object-cover mx-auto border-4 border-gold" loading="lazy">
+                  <div class="text-gold mt-4 text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                  <blockquote class="mt-4 text-xl md:text-2xl font-serif italic font-medium text-ink/85 leading-relaxed">“My bridal makeup was flawless. It stayed fresh from morning ceremony to late-night reception, and every photo looks stunning. Thank you, team!”</blockquote>
+                  <figcaption class="mt-5 font-bold">Priya S. <span class="block text-sm font-normal text-ink/60">Bridal Makeup · Sector 62, Noida</span></figcaption>
+                </div>
+              </figure>
+              <figure class="min-w-full p-2">
+                <div class="card text-center p-6 md:p-12 hover:!transform-none">
+                  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80" alt="Neha K., happy client" class="w-20 h-20 rounded-full object-cover mx-auto border-4 border-gold" loading="lazy">
+                  <div class="text-gold mt-4 text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                  <blockquote class="mt-4 text-xl md:text-2xl font-serif italic font-medium text-ink/85 leading-relaxed">“Best hair colour I've had in Noida. The stylist understood exactly what I wanted, and my hair still feels silky weeks later.”</blockquote>
+                  <figcaption class="mt-5 font-bold">Neha K. <span class="block text-sm font-normal text-ink/60">Hair Colour &amp; Spa · Sector 18</span></figcaption>
+                </div>
+              </figure>
+              <figure class="min-w-full p-2">
+                <div class="card text-center p-6 md:p-12 hover:!transform-none">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" alt="Ananya R., happy client" class="w-20 h-20 rounded-full object-cover mx-auto border-4 border-gold" loading="lazy">
+                  <div class="text-gold mt-4 text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                  <blockquote class="mt-4 text-xl md:text-2xl font-serif italic font-medium text-ink/85 leading-relaxed">“Spotlessly clean, calming ambience and a facial that made my skin glow for my sister's wedding. I'm a regular now!”</blockquote>
+                  <figcaption class="mt-5 font-bold">Ananya R. <span class="block text-sm font-normal text-ink/60">Facial &amp; Manicure · Greater Noida</span></figcaption>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <button id="prev" class="hidden md:grid place-items-center absolute top-1/2 -left-6 -translate-y-1/2 w-11 h-11 rounded-full bg-white shadow-lg text-golddark hover:bg-gold hover:text-white transition" aria-label="Previous review"><i class="fa-solid fa-chevron-left"></i></button>
+          <button id="next" class="hidden md:grid place-items-center absolute top-1/2 -right-6 -translate-y-1/2 w-11 h-11 rounded-full bg-white shadow-lg text-golddark hover:bg-gold hover:text-white transition" aria-label="Next review"><i class="fa-solid fa-chevron-right"></i></button>
+          <div id="dots" class="flex justify-center gap-2 mt-5"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="py-14 md:py-28 px-5 bg-blush/60">
+      <div class="max-w-6xl mx-auto">
+        <div class="mb-4 md:mb-14 md:text-center" data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-indian-rupee-sign text-gold mr-2"></i>Simple, Transparent Pricing</h2>
+          <div class="divider hidden md:block"></div>
+          <p class="mt-3 md:mt-5 text-sm md:text-base text-ink/70">Pick the package that fits your day. Final price may vary with hair length and add-ons.</p>
+        </div>
+        <div id="priceRow" class="relative flex md:grid md:grid-cols-3 gap-4 md:gap-8 items-stretch overflow-x-auto md:overflow-visible snap-x snap-mandatory no-scrollbar -mx-5 px-5 md:mx-0 md:px-0 pt-8 pb-6 md:py-0">
+          <div class="card p-6 md:p-8 text-center flex flex-col snap-center shrink-0 w-[84%] sm:w-[55%] md:w-auto">
+            <h3 class="text-3xl font-bold">Basic</h3>
+            <p class="mt-3 font-sans text-5xl text-golddark font-extrabold">₹499</p>
+            <p class="text-sm text-ink/60">per visit</p>
+            <ul class="mt-6 space-y-3 text-sm text-left flex-1">
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Haircut &amp; blow-dry</li>
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Express cleanup</li>
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Hair wash &amp; conditioning</li>
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Free consultation</li>
+            </ul>
+            <a href="#contact" data-plan="Haircut &amp; Styling" class="plan-btn btn btn-dark justify-center mt-7 !px-4"><i class="fa-solid fa-calendar-check"></i> Book Appointment</a>
+          </div>
+          <div id="premiumCard" class="card p-6 md:p-8 text-center flex flex-col relative border-2 border-gold md:-translate-y-4 snap-center shrink-0 w-[84%] sm:w-[55%] md:w-auto">
+            <span class="absolute -top-4 left-1/2 -translate-x-1/2 gold-grad text-white text-xs font-bold px-5 py-1.5 rounded-full shadow whitespace-nowrap"><i class="fa-solid fa-crown mr-1"></i> Most Popular</span>
+            <h3 class="text-3xl font-bold">Premium</h3>
+            <p class="mt-3 font-sans text-5xl text-golddark font-extrabold">₹999</p>
+            <p class="text-sm text-ink/60">per visit</p>
+            <ul class="mt-6 space-y-3 text-sm text-left flex-1">
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Haircut &amp; styling</li>
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Signature hydrating facial</li>
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Manicure with gel polish</li>
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Head &amp; shoulder massage</li>
+            </ul>
+            <a href="#contact" data-plan="Facial &amp; Glow" class="plan-btn btn btn-gold justify-center mt-7 !px-4"><i class="fa-solid fa-calendar-check"></i> Book Appointment</a>
+          </div>
+          <div class="card p-6 md:p-8 text-center flex flex-col snap-center shrink-0 w-[84%] sm:w-[55%] md:w-auto">
+            <h3 class="text-3xl font-bold">Bridal</h3>
+            <p class="mt-3 font-sans text-5xl text-golddark font-extrabold">₹4999</p>
+            <p class="text-sm text-ink/60">onwards</p>
+            <ul class="mt-6 space-y-3 text-sm text-left flex-1">
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>HD / airbrush bridal makeup</li>
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Hairstyling &amp; draping</li>
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Pre-bridal trial session</li>
+              <li><i class="fa-solid fa-circle-check text-gold mr-2"></i>Manicure &amp; pedicure</li>
+            </ul>
+            <a href="#contact" data-plan="Bridal Makeup" class="plan-btn btn btn-dark justify-center mt-7 !px-4"><i class="fa-solid fa-calendar-check"></i> Book Appointment</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-14 md:py-28 px-5">
+      <div class="max-w-3xl mx-auto">
+        <div class="mb-8 md:mb-12 md:text-center" data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-circle-question text-gold mr-2"></i>Frequently Asked Questions</h2>
+          <div class="divider hidden md:block"></div>
+        </div>
+        <div class="space-y-3 md:space-y-4" data-aos="fade-up">
+          <div class="faq-item card !rounded-2xl">
+            <button class="w-full flex justify-between items-center gap-4 text-left p-5 font-semibold text-sm md:text-base" aria-expanded="false">
+              <span><i class="fa-solid fa-calendar-check text-gold mr-3"></i>Do I need to book an appointment?</span>
+              <i class="fa-solid fa-chevron-down faq-chevron text-gold"></i>
+            </button>
+            <div class="faq-body"><p class="px-5 pb-5 text-sm text-ink/70 leading-relaxed">Walk-ins are welcome, but we recommend booking by call or WhatsApp to guarantee your preferred stylist and time slot — especially on weekends.</p></div>
+          </div>
+          <div class="faq-item card !rounded-2xl">
+            <button class="w-full flex justify-between items-center gap-4 text-left p-5 font-semibold text-sm md:text-base" aria-expanded="false">
+              <span><i class="fa-solid fa-wand-magic-sparkles text-gold mr-3"></i>How early should I book bridal makeup?</span>
+              <i class="fa-solid fa-chevron-down faq-chevron text-gold"></i>
+            </button>
+            <div class="faq-body"><p class="px-5 pb-5 text-sm text-ink/70 leading-relaxed">We suggest booking 3–4 weeks ahead, and during wedding season even earlier. A pre-bridal trial is included in our Bridal package so you love your look before the big day.</p></div>
+          </div>
+          <div class="faq-item card !rounded-2xl">
+            <button class="w-full flex justify-between items-center gap-4 text-left p-5 font-semibold text-sm md:text-base" aria-expanded="false">
+              <span><i class="fa-solid fa-gem text-gold mr-3"></i>Which brands and products do you use?</span>
+              <i class="fa-solid fa-chevron-down faq-chevron text-gold"></i>
+            </button>
+            <div class="faq-body"><p class="px-5 pb-5 text-sm text-ink/70 leading-relaxed">We use only premium, dermatologically tested professional brands. Tell us about any allergies or sensitivities and we'll choose the safest options for you.</p></div>
+          </div>
+          <div class="faq-item card !rounded-2xl">
+            <button class="w-full flex justify-between items-center gap-4 text-left p-5 font-semibold text-sm md:text-base" aria-expanded="false">
+              <span><i class="fa-solid fa-mars-and-venus text-gold mr-3"></i>Do you serve both men and women?</span>
+              <i class="fa-solid fa-chevron-down faq-chevron text-gold"></i>
+            </button>
+            <div class="faq-body"><p class="px-5 pb-5 text-sm text-ink/70 leading-relaxed">Yes! Aurelia Luxe is a unisex salon in Noida offering grooming and beauty services for everyone.</p></div>
+          </div>
+          <div class="faq-item card !rounded-2xl">
+            <button class="w-full flex justify-between items-center gap-4 text-left p-5 font-semibold text-sm md:text-base" aria-expanded="false">
+              <span><i class="fa-solid fa-rotate text-gold mr-3"></i>What is your cancellation policy?</span>
+              <i class="fa-solid fa-chevron-down faq-chevron text-gold"></i>
+            </button>
+            <div class="faq-body"><p class="px-5 pb-5 text-sm text-ink/70 leading-relaxed">Please inform us at least 4 hours before your slot to reschedule or cancel. For bridal bookings, kindly notify us 48 hours in advance.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-14 md:py-28 px-5 bg-blush/60">
+      <div class="max-w-7xl mx-auto">
+        <div class="mb-8 md:mb-14 md:text-center" data-aos="fade-up">
+          <h2 class="section-title"><i class="fa-solid fa-phone text-gold mr-2"></i>Book Your Appointment</h2>
+          <div class="divider hidden md:block"></div>
+          <p class="mt-3 md:mt-5 text-sm md:text-base text-ink/70">Fill in the form and we'll confirm your slot on WhatsApp within minutes.</p>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-8 md:gap-10">
+          <form id="bookingForm" class="card p-6 md:p-9 hover:!transform-none space-y-4" data-aos="fade-up">
+            <div>
+              <label for="name" class="text-sm font-semibold block mb-1.5"><i class="fa-solid fa-user text-gold mr-2"></i>Your Name</label>
+              <input id="name" type="text" required class="input" placeholder="Enter your full name" autocomplete="name">
+            </div>
+            <div>
+              <label for="phone" class="text-sm font-semibold block mb-1.5"><i class="fa-solid fa-phone text-gold mr-2"></i>Phone Number</label>
+              <input id="phone" type="tel" required class="input" placeholder="Enter your mobile number" autocomplete="tel" inputmode="tel">
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label for="service" class="text-sm font-semibold block mb-1.5"><i class="fa-solid fa-scissors text-gold mr-2"></i>Service</label>
+                <select id="service" class="input">
+                  <option>Haircut &amp; Styling</option><option>Hair Colour &amp; Balayage</option><option>Keratin &amp; Smoothening</option><option>Hair Spa</option>
+                  <option>Facial &amp; Glow</option><option>De-Tan &amp; Cleanup</option><option>Waxing &amp; Threading</option><option>Manicure &amp; Pedicure</option>
+                  <option>Nail Art &amp; Extensions</option><option>Body Massage &amp; Spa</option><option>Bridal Makeup</option><option>Men's Grooming &amp; Beard</option>
+                </select>
+              </div>
+              <div>
+                <label for="date" class="text-sm font-semibold block mb-1.5"><i class="fa-solid fa-calendar-days text-gold mr-2"></i>Preferred Date</label>
+                <input id="date" type="date" class="input">
+              </div>
+            </div>
+            <div>
+              <label for="msg" class="text-sm font-semibold block mb-1.5"><i class="fa-solid fa-envelope text-gold mr-2"></i>Message (optional)</label>
+              <textarea id="msg" rows="3" class="input" placeholder="Anything we should know?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold w-full justify-center"><i class="fa-brands fa-whatsapp text-lg"></i> Book via WhatsApp <i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+
+          <div class="space-y-5 md:space-y-6" data-aos="fade-up">
+            <div class="card p-6 hover:!transform-none space-y-5">
+              <div class="flex gap-4"><span class="icon-circle !w-12 !h-12 !text-lg"><i class="fa-solid fa-location-dot"></i></span>
+                <div><h3 class="text-xl font-bold">Visit Us</h3><p class="text-sm text-ink/70">Aurelia Luxe Salon &amp; Spa, Sector 18, Noida, Uttar Pradesh 201301</p></div></div>
+              <div class="flex gap-4"><span class="icon-circle !w-12 !h-12 !text-lg"><i class="fa-solid fa-phone"></i></span>
+                <div><h3 class="text-xl font-bold">Call Us</h3><a href="tel:+919876543210" class="text-sm text-ink/70 hover:text-golddark">+91 98765 43210</a></div></div>
+              <div class="flex gap-4"><span class="icon-circle !w-12 !h-12 !text-lg"><i class="fa-solid fa-clock"></i></span>
+                <div><h3 class="text-xl font-bold">Timings</h3><p class="text-sm text-ink/70">Monday – Sunday: 10:00 AM – 9:00 PM</p></div></div>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-xl h-72 md:h-80">
+              <iframe title="Aurelia Luxe location map in Noida" src="https://maps.google.com/maps?q=DLF+Mall+of+India,+Sector+18,+Noida,+Uttar+Pradesh+201301&output=embed" width="100%" height="100%" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer-pad bg-ink text-white/80 pt-14 md:pt-16 pb-8 px-5 rounded-t-[32px] lg:rounded-none">
+    <div class="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-9 md:gap-10">
+      <div>
+        <a href="#home" class="flex items-center gap-2 text-white text-3xl font-serif font-bold"><i class="fa-solid fa-spa text-gold"></i> Aurelia Luxe</a>
+        <p class="mt-4 text-sm leading-relaxed">Where Beauty Meets Luxury. Your trusted salon &amp; spa in Noida for hair, skin, nails and bridal artistry.</p>
+        <div class="flex gap-3 mt-5">
+          <a href="#" aria-label="Facebook" class="w-10 h-10 grid place-items-center rounded-full bg-white/10 hover:bg-gold transition"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" class="w-10 h-10 grid place-items-center rounded-full bg-white/10 hover:bg-gold transition"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube" class="w-10 h-10 grid place-items-center rounded-full bg-white/10 hover:bg-gold transition"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://wa.me/919876543210" aria-label="WhatsApp" class="w-10 h-10 grid place-items-center rounded-full bg-white/10 hover:bg-gold transition"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" aria-label="Pinterest" class="w-10 h-10 grid place-items-center rounded-full bg-white/10 hover:bg-gold transition"><i class="fa-brands fa-pinterest-p"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-white text-2xl mb-4"><i class="fa-solid fa-link text-gold mr-2"></i>Quick Links</h4>
+        <ul class="space-y-2.5 text-sm">
+          <li><a href="#home" class="hover:text-gold transition"><i class="fa-solid fa-angle-right text-gold mr-2"></i>Home</a></li>
+          <li><a href="#services" class="hover:text-gold transition"><i class="fa-solid fa-angle-right text-gold mr-2"></i>Services</a></li>
+          <li><a href="#gallery" class="hover:text-gold transition"><i class="fa-solid fa-angle-right text-gold mr-2"></i>Gallery</a></li>
+          <li><a href="#pricing" class="hover:text-gold transition"><i class="fa-solid fa-angle-right text-gold mr-2"></i>Pricing</a></li>
+          <li><a href="#faq" class="hover:text-gold transition"><i class="fa-solid fa-angle-right text-gold mr-2"></i>FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white text-2xl mb-4"><i class="fa-solid fa-clock text-gold mr-2"></i>Timings</h4>
+        <ul class="space-y-2.5 text-sm">
+          <li><i class="fa-solid fa-angle-right text-gold mr-2"></i>Mon – Fri: 10 AM – 9 PM</li>
+          <li><i class="fa-solid fa-angle-right text-gold mr-2"></i>Saturday: 10 AM – 9 PM</li>
+          <li><i class="fa-solid fa-angle-right text-gold mr-2"></i>Sunday: 10 AM – 9 PM</li>
+          <li><i class="fa-solid fa-clock text-gold mr-2"></i>Bridal bookings by appointment</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white text-2xl mb-4"><i class="fa-solid fa-location-dot text-gold mr-2"></i>Visit Us</h4>
+        <ul class="space-y-3 text-sm">
+          <li><i class="fa-solid fa-location-dot text-gold mr-2"></i>Sector 18, Noida, UP 201301</li>
+          <li><i class="fa-solid fa-phone text-gold mr-2"></i><a href="tel:+919876543210" class="hover:text-gold">+91 98765 43210</a></li>
+          <li><i class="fa-solid fa-envelope text-gold mr-2"></i><a href="mailto:hello@aurelialuxe.in" class="hover:text-gold">hello@aurelialuxe.in</a></li>
+          <li><i class="fa-solid fa-clock text-gold mr-2"></i>10:00 AM – 9:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto mt-10 md:mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-white/60">
+      <p>&copy; <span id="year"></span> Aurelia Luxe, Noida. All rights reserved.</p>
+      <p>Website by <span class="text-gold font-semibold">Ambuj Verma</span></p>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/919876543210?text=Hi%20Aurelia%20Luxe%2C%20I%20would%20like%20to%20book%20an%20appointment."
+     target="_blank" rel="noopener" aria-label="Chat on WhatsApp"
+     class="wa-float wa-hide pulse-ring fixed z-[55] w-14 h-14 rounded-full grid place-items-center text-white text-3xl shadow-xl hover:scale-110 transition"
+     style="background:#25d366">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- BOTTOM TAB BAR (mobile app style) -->
+  <nav id="tabbar" class="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur rounded-t-3xl shadow-[0_-10px_30px_-12px_rgba(59,43,49,.35)]" aria-label="App navigation">
+    <div class="grid grid-cols-5 items-end px-2">
+      <a href="#home" data-tab="home" class="tab"><i class="fa-solid fa-house"></i><span>Home</span></a>
+      <a href="#services" data-tab="services" class="tab"><i class="fa-solid fa-scissors"></i><span>Services</span></a>
+      <a href="#contact" class="tab" style="color:#b8932a"><span class="book-fab"><i class="fa-solid fa-calendar-check"></i></span><span>Book</span></a>
+      <a href="#gallery" data-tab="gallery" class="tab"><i class="fa-solid fa-images"></i><span>Gallery</span></a>
+      <a href="tel:+919876543210" class="tab"><i class="fa-solid fa-phone"></i><span>Call Now</span></a>
+    </div>
+  </nav>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="fixed inset-0 z-[90] hidden items-center justify-center bg-black/90 p-4" role="dialog" aria-modal="true" aria-label="Gallery image preview">
+    <button id="lbClose" class="absolute top-5 right-5 text-white text-3xl w-12 h-12" aria-label="Close preview"><i class="fa-solid fa-xmark"></i></button>
+    <button id="lbPrev" class="absolute left-3 md:left-8 text-white text-2xl w-12 h-12" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+    <img id="lbImg" src="" alt="" class="max-h-[85vh] max-w-full rounded-2xl shadow-2xl">
+    <button id="lbNext" class="absolute right-3 md:right-8 text-white text-2xl w-12 h-12" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    const WA = '919876543210', BRAND = 'Aurelia Luxe';
+    // Animations: desktop only. If AOS fails to load, nothing stays hidden.
+    if (window.AOS) { AOS.init({ duration: 700, once: true, offset: 50, disable: window.innerWidth < 1024 }); }
+    else { document.querySelectorAll('[data-aos]').forEach(el => el.removeAttribute('data-aos')); }
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('date').min = new Date().toISOString().split('T')[0];
+
+    // Header state
+    const header = document.getElementById('header');
+    const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 40 || drawer.classList.contains('open'));
+
+    // Side drawer
+    const drawer = document.getElementById('drawer'), overlay = document.getElementById('overlay'), menuBtn = document.getElementById('menuBtn');
+    function setDrawer(open) {
+      drawer.classList.toggle('open', open); overlay.classList.toggle('open', open);
+      drawer.setAttribute('aria-hidden', !open); menuBtn.setAttribute('aria-expanded', open);
+      document.body.style.overflow = open ? 'hidden' : '';
+      if (open) drawer.querySelector('a').focus({ preventScroll: true });
+    }
+    menuBtn.addEventListener('click', () => setDrawer(true));
+    document.getElementById('drawerClose').addEventListener('click', () => setDrawer(false));
+    overlay.addEventListener('click', () => setDrawer(false));
+    drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setDrawer(false)));
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && drawer.classList.contains('open')) setDrawer(false); });
+    window.addEventListener('resize', () => { if (window.innerWidth >= 1024) setDrawer(false); });
+    window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  </script>
+  <script>
+    // Hero slider
+    const slides = [...document.querySelectorAll('.hero-slide')], hDots = document.getElementById('heroDots');
+    let hi = 0, hTimer;
+    slides.forEach((_, i) => { const d = document.createElement('span'); d.className = 'hdot' + (i === 0 ? ' on' : ''); hDots.appendChild(d); });
+    function heroGo(i) {
+      hi = (i + slides.length) % slides.length;
+      slides.forEach((s, n) => s.classList.toggle('active', n === hi));
+      [...hDots.children].forEach((d, n) => d.classList.toggle('on', n === hi));
+    }
+    hTimer = setInterval(() => heroGo(hi + 1), 5500);
+
+    // Services filter + preselect
+    const chips = document.querySelectorAll('.chip'), svcs = document.querySelectorAll('.svc'), sel = document.getElementById('service');
+    chips.forEach(c => c.addEventListener('click', () => {
+      chips.forEach(x => x.classList.remove('on')); c.classList.add('on');
+      const f = c.dataset.filter;
+      svcs.forEach(s => s.classList.toggle('hidden', !(f === 'all' || s.dataset.cat.split(' ').includes(f))));
+    }));
+    function pickService(name) { if (!name) return; [...sel.options].forEach(o => { if (o.text === name) sel.value = o.value; }); }
+    svcs.forEach(s => s.addEventListener('click', () => {
+      pickService(s.dataset.service);
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    }));
+    document.querySelectorAll('.plan-btn').forEach(b => b.addEventListener('click', () => pickService(b.dataset.plan)));
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-item button').forEach(btn => btn.addEventListener('click', () => {
+      const item = btn.parentElement, isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => { i.classList.remove('open'); i.querySelector('button').setAttribute('aria-expanded', 'false'); });
+      if (!isOpen) { item.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+    }));
+
+  </script>
+  <script>
+    // Testimonial carousel (buttons, dots, swipe, autoplay)
+    const track = document.getElementById('track'), count = track.children.length, dotsBox = document.getElementById('dots');
+    let idx = 0, timer;
+    for (let i = 0; i < count; i++) {
+      const d = document.createElement('button');
+      d.className = 'h-2.5 w-2.5 rounded-full bg-blushdeep transition-all'; d.setAttribute('aria-label', 'Go to review ' + (i + 1));
+      d.addEventListener('click', () => { go(i); restart(); }); dotsBox.appendChild(d);
+    }
+    function go(i) {
+      idx = (i + count) % count;
+      track.style.transform = `translateX(-${idx * 100}%)`;
+      [...dotsBox.children].forEach((d, n) => { d.classList.toggle('bg-gold', n === idx); d.classList.toggle('bg-blushdeep', n !== idx); d.classList.toggle('w-8', n === idx); });
+    }
+    function restart() { clearInterval(timer); timer = setInterval(() => go(idx + 1), 5500); }
+    document.getElementById('prev').onclick = () => { go(idx - 1); restart(); };
+    document.getElementById('next').onclick = () => { go(idx + 1); restart(); };
+    let sx = 0; const vp = document.getElementById('revViewport');
+    vp.addEventListener('touchstart', e => { sx = e.touches[0].clientX; }, { passive: true });
+    vp.addEventListener('touchend', e => { const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 45) { go(idx + (dx < 0 ? 1 : -1)); restart(); } });
+    go(0); restart();
+
+    // Pricing slider: start on the popular plan (mobile)
+    window.addEventListener('load', () => {
+      const row = document.getElementById('priceRow'), mid = document.getElementById('premiumCard');
+      if (window.innerWidth < 768) row.scrollLeft = mid.offsetLeft - (row.clientWidth - mid.offsetWidth) / 2;
+    });
+
+    // Lightbox (with swipe)
+    const lb = document.getElementById('lightbox'), lbImg = document.getElementById('lbImg');
+    const getItems = () => [...document.querySelectorAll('.m-item img')];
+    let cur = 0;
+    function openLb(i) {
+      const items = getItems(); cur = (i + items.length) % items.length;
+      lbImg.src = items[cur].src.replace('w=700', 'w=1400'); lbImg.alt = items[cur].alt;
+      lb.classList.remove('hidden'); lb.classList.add('flex'); document.body.style.overflow = 'hidden';
+    }
+    function closeLb() { lb.classList.add('hidden'); lb.classList.remove('flex'); document.body.style.overflow = ''; }
+    document.querySelector('.masonry').addEventListener('click', e => {
+      const item = e.target.closest('.m-item'); if (!item) return;
+      openLb(getItems().indexOf(item.querySelector('img')));
+    });
+    document.getElementById('lbClose').onclick = closeLb;
+    document.getElementById('lbPrev').onclick = () => openLb(cur - 1);
+    document.getElementById('lbNext').onclick = () => openLb(cur + 1);
+    lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+    let lx = 0;
+    lb.addEventListener('touchstart', e => { lx = e.touches[0].clientX; }, { passive: true });
+    lb.addEventListener('touchend', e => { const dx = e.changedTouches[0].clientX - lx; if (Math.abs(dx) > 50) openLb(cur + (dx < 0 ? 1 : -1)); });
+    document.addEventListener('keydown', e => {
+      if (lb.classList.contains('hidden')) return;
+      if (e.key === 'Escape') closeLb();
+      if (e.key === 'ArrowRight') openLb(cur + 1);
+      if (e.key === 'ArrowLeft') openLb(cur - 1);
+    });
+
+  </script>
+  <script>
+    // Scroll spy: desktop nav + mobile tab bar
+    const navLinks = document.querySelectorAll('nav a.nav-link');
+    const navSecs = [...navLinks].map(l => document.querySelector(l.getAttribute('href')));
+    const secTop = id => document.getElementById(id).offsetTop;
+    function spy() {
+      const y = window.scrollY + 160;
+      let curId = '';
+      navSecs.forEach(s => { if (s && y >= s.offsetTop) curId = '#' + s.id; });
+      navLinks.forEach(l => l.classList.toggle('active', l.getAttribute('href') === curId));
+      const gTop = secTop('gallery'), gBot = gTop + document.getElementById('gallery').offsetHeight, sTop = secTop('services');
+      const active = y < sTop ? 'home' : y < gTop ? 'services' : y < gBot ? 'gallery' : '';
+      document.querySelectorAll('.tab[data-tab]').forEach(t => t.classList.toggle('active', t.dataset.tab === active));
+      document.querySelector('.wa-float').classList.toggle('wa-hide', window.scrollY < 520);
+    }
+    window.addEventListener('scroll', spy, { passive: true }); window.addEventListener('load', spy); spy();
+
+    // Broken image fallback
+    const badImg = img => { const m = img.closest('.m-item'); if (m) m.remove(); else img.style.visibility = 'hidden'; };
+    document.querySelectorAll('img').forEach(img => {
+      img.addEventListener('error', () => badImg(img));
+      if (img.complete && img.naturalWidth === 0) badImg(img);
+    });
+
+    // Booking form -> WhatsApp
+    document.getElementById('bookingForm').addEventListener('submit', e => {
+      e.preventDefault();
+      const v = id => document.getElementById(id).value.trim();
+      const text = `Hello ${BRAND}! I'd like to book an appointment.%0A` +
+        `Name: ${encodeURIComponent(v('name'))}%0APhone: ${encodeURIComponent(v('phone'))}%0A` +
+        `Service: ${encodeURIComponent(v('service'))}%0ADate: ${encodeURIComponent(v('date') || 'Flexible')}%0A` +
+        `Message: ${encodeURIComponent(v('msg') || '-')}`;
+      window.open(`https://wa.me/${WA}?text=${text}`, '_blank', 'noopener');
+    });
+  </script>
+</body>
+</html>
